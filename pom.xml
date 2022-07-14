@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.testleaf</groupId>
-	<artifactId>ti-scout-test-automation</artifactId>
+	<artifactId>ti-scout</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<dependencies>
 		<dependency>
@@ -71,9 +71,9 @@
 							<suiteXmlFile>testng_LoginLogout.xml</suiteXmlFile>
 							<suiteXmlFile>testngDashboard.xml</suiteXmlFile>
 							<suiteXmlFile>testng_JobOpenings.xml</suiteXmlFile>
-							<suiteXmlFile>testng_Candidate.xml</suiteXmlFile>
-							<suiteXmlFile>testng_Interview.xml</suiteXmlFile>
-							<suiteXmlFile>testng_Task.xml</suiteXmlFile>
+							<suiteXmlFile>testng_Candidates.xml</suiteXmlFile>
+							<suiteXmlFile>testng_Interviews.xml</suiteXmlFile>
+							<suiteXmlFile>testng_Tasks.xml</suiteXmlFile>
 
 						</suiteXmlFiles>
 					</configuration>
